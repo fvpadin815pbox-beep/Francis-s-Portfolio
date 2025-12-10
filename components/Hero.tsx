@@ -15,11 +15,11 @@ export default function Hero() {
         priority
       />
       <h1>
-        Hello, I'm <span>Francis</span>, Web Designer/UI Developer
+        Hello, I&apos;m <span>Francis</span>, Web Designer/UI Developer
       </h1>
       <p className="hero-desc">
         A Computer Science student at Florida State University and an aspiring
-        Web Designer/UI Developer. I'm passionate about crafting visually
+        Web Designer/UI Developer. I&apos;m passionate about crafting visually
         engaging, user-centered designs and turning creative ideas into
         functional, responsive websites. With a growing interest in front-end
         development and design tools like Figma, I aim to blend aesthetics with
@@ -27,27 +27,35 @@ export default function Hero() {
       </p>
       <div className="social-icons">
         <a href="#">
-          <img
+          <Image
             src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
             alt="LinkedIn"
+            width={40}
+            height={40}
           />
         </a>
         <a href="#">
-          <img
+          <Image
             src="https://cdn-icons-png.flaticon.com/512/733/733558.png"
             alt="Twitter"
+            width={40}
+            height={40}
           />
         </a>
         <a href="#">
-          <img
+          <Image
             src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
             alt="GitHub"
+            width={40}
+            height={40}
           />
         </a>
         <a href="#">
-          <img
+          <Image
             src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
             alt="Facebook"
+            width={40}
+            height={40}
           />
         </a>
       </div>
