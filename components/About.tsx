@@ -27,7 +27,7 @@ export default function About() {
           </p>
           <p>
             With growing experience in tools like Figma, HTML, CSS, and
-            JavaScript, I'm continuously improving my design and development
+            JavaScript, I&apos;m continuously improving my design and development
             skills to bring both aesthetics and usability together.
           </p>
           <Link href="#services" className="btn-outline">

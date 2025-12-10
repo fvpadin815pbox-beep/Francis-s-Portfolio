@@ -40,7 +40,7 @@ export default function Contact() {
         <span>Contact Me!</span>
       </h2>
       <p className="contact-text">
-        Let's work together to transform your ideas into stunning design.
+        Let&apos;s work together to transform your ideas into stunning design.
       </p>
 
       <form onSubmit={handleSubmit} className="contact-form">
